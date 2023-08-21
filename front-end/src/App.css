@@ -1,0 +1,130 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.nav-ul li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.register,
+.product {
+  margin-left: 30%;
+}
+.appButton {
+  margin: 25px;
+  width: 150px;
+  background-color: skyblue;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 80px;
+  float: left;
+  margin-top: 3px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.float-right {
+  text-align: end;
+}
+.error {
+  margin-left: 25px;
+  margin-top: -20px;
+  color: red;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+  font-size: 10px;
+}
+.editBtn {
+  font-size: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  cursor: pointer;
+}
+
+.editBtn a {
+  color: white;
+  text-decoration: none;
+}
